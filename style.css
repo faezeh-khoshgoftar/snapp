@@ -1,0 +1,266 @@
+html{
+    direction: rtl;
+}
+#header{
+    display : flex;
+    border-top:2px solid #00ef74;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+    
+}
+
+.download-driver{
+    background-color: #00d170;
+    border-radius: 30px;
+    padding:12px;
+    cursor: pointer;
+    
+
+}
+.download-driver:hover{
+    background-color:#3abb78 ;
+}
+#header > a{
+    text-decoration: none;
+    color:white;
+    
+}
+#logo img{
+    cursor: pointer;
+}
+#header-menu li {
+    display: inline;
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 20px;
+    
+    
+    
+
+}
+#header-menu a:hover{
+    color:#00d170;
+}
+
+.right{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+}
+.left{
+    margin-left: 60px;
+}
+#header-menu a{
+    text-decoration: none; 
+    color:black;
+}
+#header-menu li:last-child{
+    padding-right:20px;
+    border-right:1px solid rgb(206, 203, 203);
+   
+}
+
+#snap-download{
+    background-image:url(./images/main-bg.jpg) ;
+    width:100%;
+    height:580px;
+    background-size:cover;
+}
+#text{
+    margin:0 auto;
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color:white;
+}
+
+#text h2 {
+    
+    font-size:43px;
+}
+
+#text p{
+    font-size:20px;
+}
+
+#snap{
+    color:#00d170;
+
+}
+#send-link{
+    margin-top: 30px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#input-send-link{
+    width:270px;
+    height:60px;
+    padding-right:10px;
+    border:none;
+    outline: none;
+}
+
+#button-send-link{
+    all:unset;
+    width:150px;
+    background-color:#00d170 ;
+    color:white;
+    border-right:1px solid rgb(201, 195, 195);
+    outline: none;
+}
+#button-send-link:hover{
+    cursor: pointer;
+}
+#text h6{
+    all:unset;
+    color:white;
+    font-weight: bold;
+    font-size:25px;
+}
+#incorrect{
+    color:red;
+    padding-top:15px;
+    padding-bottom:20px;
+    font-size:17px;
+    display:none;
+}
+#loading{
+    color:red;
+    padding-top:15px;
+    padding-bottom:20px;
+    font-size:17px;
+    display:none;
+}
+#success{
+    color:#00d170;
+    padding-top:15px;
+    padding-bottom:20px;
+    font-size:17px;
+    display:none;
+}
+
+#app{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    margin:auto;
+    padding-top:20px;
+    
+}
+.app-link{
+    display:flex;
+    justify-content:space-between;
+    padding-top:10px;
+}
+
+#content-description{
+    width:1000px;
+    margin:auto;
+    text-align: right;
+    border-top:2px solid rgb(224, 223, 223);
+    padding-top:30px;
+}
+#content{
+    text-align: center;
+}
+#content>h2{
+    padding-top:40px;
+    padding-bottom:20px;
+    font-size: 35px;
+}
+#content-description>p{
+    line-height: 2.08;
+    font-size:20px;
+
+}
+#parent-description{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top:60px;
+    padding-bottom: 100px;
+}
+.description{
+    width:300px;
+    border:2px solid rgb(231, 225, 225);
+    border-radius: 20px;
+    height:350px;
+    margin-top:50px;
+    background-color: white;
+    
+}
+
+.p-description{
+    color:#6624bd;
+    margin-right:20px;
+}
+#a-description{
+    text-decoration: none;
+    margin-right:20px;
+
+}
+ .description p:last-child{
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:20px;
+    text-align:right;
+    line-height: 1.5;
+    
+    
+}
+.description h3{
+    text-align:center;
+}
+.image-description{
+    margin:auto;
+    width:100px;
+    padding-top:30px;
+}
+#footer{
+    background-color: #151f33;
+    text-align: center;
+}
+#parent-footer{
+    width:70%;
+    margin: auto;
+}
+#parent-item{
+    padding-top:30px;
+}
+.item{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    
+
+}
+.item:hover{
+    color:#00d170
+
+}
+#a-item{
+    color:#00ef74;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#a-item:hover{
+    color:#00d170;
+}
+#parent-footer>p{
+color:white;
+margin-top:30px;
+padding-bottom:60px;
+}
+
+
